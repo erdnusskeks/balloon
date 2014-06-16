@@ -1,0 +1,152 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+.sky {
+  background-color: #63ADD0;
+}
+
+.cloud1_0 {
+  position: absolute;
+  width: 200px;
+  height: 100px;
+  border-radius: 50px;
+  background-color: white;
+  top: 100px;
+  left: 200px;
+}
+
+.cloud1_1 {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  background-color: white;
+  top: -40px;
+  left: 60px;
+}
+
+.cloud2_0 {
+  position: absolute;
+  width: 200px;
+  height: 100px;
+  border-radius: 50px;
+  background-color: white;
+  top: 200px;
+  left: 1000px;
+}
+
+.cloud2_1 {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  background-color: white;
+  top: -40px;
+  left: 40px;
+}
+
+.hill1 {
+  position: relative;
+  width: 600px;
+  height: 200px;
+  border-radius: 800px 600px 0 0;
+  background-color: #259238;
+  top: 500px;
+  left: -20px;
+  float: left;
+}
+
+.hill2 {
+  position: relative;
+  width: 400px;
+  height: 300px;
+  border-radius: 600px 600px 0 0;
+  background-color: #00C12B;
+  top: 400px;
+  left: -100px;
+  float: left;
+}
+
+.hill3 {
+  position: relative;
+  width: 800px;
+  height: 300px;
+  border-radius: 600px 600px 0 0;
+  background-color: #007D1C;
+  top: 150px;
+  left: 800px;
+  float: left;
+}
+
+.around {
+  position: absolute;
+  margin: 210px 650px;
+}
+
+.around:hover {
+  transform: translate(0, -100px);
+    -moz-transform: translate(0, -100px);
+    -webkit-transform: translate(0, -100px);
+  transition-duration: 5s;
+  transition-timing-function: ease-in-out;
+}
+
+.balloon {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px 50px 0 50px;
+  background-color: #ff0066;
+  transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  float: left;
+}
+
+.string1 {
+  position: relative;
+  border-top: 1.5px solid white;
+  width: 40px;
+  transform: rotate(50deg);
+    -moz-transform: rotate(50deg);
+    -webkit-transform: rotate(50deg);
+  top: 135px;
+  left: 43px;
+}
+
+.string2 {
+  position: relative;
+  border-top: 1.5px solid white;
+  width: 40px;
+  transform: rotate(130deg);
+    -moz-transform: rotate(130deg);
+    -webkit-transform: rotate(130deg);
+  top: 135px;
+  left: 17px;
+}
+
+.box {
+  position: relative;
+  width: 50px;
+  height: 40px;
+  background-color: #BF7130;
+  top: 150px;
+  left: 25px;
+}
+
+
+
+
