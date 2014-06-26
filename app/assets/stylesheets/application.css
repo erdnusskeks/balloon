@@ -64,17 +64,19 @@
   height: 200px;
   border-radius: 800px 600px 0 0;
   background-color: #259238;
+  opacity: 0.5;
   top: 500px;
   left: -20px;
   float: left;
 }
 
 .hill2 {
+  z-index: 2;
   position: relative;
   width: 400px;
   height: 300px;
   border-radius: 600px 600px 0 0;
-  background-color: #00C12B;
+  background-color: #259238;
   top: 400px;
   left: -100px;
   float: left;
@@ -85,7 +87,8 @@
   width: 800px;
   height: 300px;
   border-radius: 600px 600px 0 0;
-  background-color: #007D1C;
+  background-color: #259238;
+  opacity: 0.8;
   top: 150px;
   left: 800px;
   float: left;
@@ -101,7 +104,7 @@
     -moz-transform: translate(0, -100px);
     -webkit-transform: translate(0, -100px);
   transition-duration: 5s;
-  transition-timing-function: ease-in-out;
+  transition-timing-function: ease;
 }
 
 .balloon {
